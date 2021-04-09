@@ -1,0 +1,38 @@
+/*
+ Theme Name:     Batakoo Child
+Theme URI: http://www.themesawesome.com
+ Description:    Batakoo Child Theme
+Author: Themes Awesome
+Author URI: http://www.themesawesome.com
+ Template:       batakoo
+ Version:        1.0.0
+*/
+
+@import url("../batakoo/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.page-header{ margin-top: 0; }
+h1.page-title{ margin-top: 0; }
+
+.set-thumb {  }
+
+#collection-list, #category-list {
+    list-style: none;
+    padding-left: 0;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+#collection-list li, #category-list li {
+    padding-bottom: 15px;
+}
+
+.side-bar-left {
+}
+
+.side-bar-left hr {
+    border: 1px solid;
+}
